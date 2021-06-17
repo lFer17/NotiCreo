@@ -27,7 +27,7 @@ window.addEventListener("load",function(){
 				<img src=${noti.imgUrl}>
 				<div>
 				<h2>${noti.titulo}</h2>
-				<p>${noti.descripcion}</p>
+				<p>${noti.descripcion} <br> <br> <label>${noti.tipoNacional?"Noticia nacional":"Noticia internacional"}</label></p>
 				<p>Fecha: ${noti.fecha}</p>
 				</div>
              
